@@ -1,0 +1,163 @@
+﻿#contenedor {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#navegacion {
+    clear: both;
+    color: black;
+}
+
+#menu_principal {
+    padding: 0 10px 0 0;
+    text-decoration: none;
+    border-bottom: 2px solid #F5907A;
+}
+
+    #menu_principal li a {
+        text-decoration: none;
+    }
+
+    #menu_principal li {
+        list-style: none;
+        display: inline;
+        padding: 2px;
+    }
+
+
+        #menu_principal li a:hover {
+            color: #F5907A;
+        }
+
+#cabecera {
+    float: left;
+}
+
+
+#contenedor img{
+    width: 170px;
+    height: 55px;
+}
+
+#buscador{
+    float: right;
+}
+
+#contenido {
+    padding: 0;
+    float: right;
+    width: 100%;
+    display: block;
+    background-color: #F5907A;
+    border-bottom: 10px solid white;
+}
+
+/*---------------------------------------------*/
+#principal {
+    float: left;
+    width: 75%;
+    padding: .5em;
+    border: none;
+    text-align: center;
+    background-color: white;
+    border-right: 31px solid white;
+}
+
+#sidebar {
+    float: right;
+    background: #F5907A;
+    color: black;
+    width: 20%;
+    border: 1px solid #F5907A;
+    text-align: center;
+}
+
+#pie {
+    margin-top: 1em;
+    border-top: 1px solid #076fd3;
+    border-bottom: 1px solid #076fd3;
+    background: #076fd3;
+    text-align: center;
+    color: black;
+    clear: both;
+}
+
+.table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+    .table td, .table th {
+        border: 1px solid #F5907A;
+        padding: 8px;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .table tr:hover {
+        background-color: #ddd;
+    }
+
+    .table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #F5907A;
+        color: black;
+    }
+
+.cuerpoEnc {
+    border-bottom: 5px solid #F5907A;
+}
+
+.cuerpoInt {
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+    color: black;
+}
+
+.body {
+    font-family: Arial;
+}
+
+.dl-horizontal {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+    .dl-horizontal dt, .dl horizontal dd {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .dl-horizontal dt {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: left;
+        background-color: #F5907A;
+        color: black;
+    }
+
+    .dl-horizontal dd {
+        border-right: 2px solid black;
+        border-bottom: 2px solid black;
+        border-left: 2px solid black;
+        margin: auto;
+    }
+
+.titulo-accion {
+    text-align: center;
+    color: black;
+    border: 2px solid #c2c2c2;
+    margin: auto;
+}

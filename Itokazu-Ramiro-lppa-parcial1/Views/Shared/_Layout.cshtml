@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/ItokazuParcial.css" rel="stylesheet" />
+
+</head>
+<body class="body">
+    <div id="contenedor">
+        <header>
+            <img src="~/Content/logo-somosclick.jpg" />
+            <div id="buscador">
+                <form action="#" method="post" id="buscador">
+                    Buscar &nbsp;
+                    <input name="busqueda" type="text" />
+                </form>
+            </div>
+        </header>
+
+        <nav id="navegacion">
+            <ul id="menu_principal">
+                <li> <a href="/">Inicio</a> </li>
+                <li>
+                    <a href="@Url.Action("Index", "Afiliados")">Afiliados</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section id="contenido">
+            <article id="principal">
+                @RenderBody()
+            </article>
+            <aside id="sidebar">
+                <h2> Opciones secundarias</h2>
+
+            </aside>
+        </section>
+
+        <footer id="pie">
+            <p> Site Itokazu - 2021 - Primer Parcial LPPA </p>
+        </footer>
+
+
+    </div>
+</body>
+</html>
