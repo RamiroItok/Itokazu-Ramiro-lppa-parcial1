@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\ItokazuParcial.css" />
-    <Content Include="Content\logo-somosclick.jpg" />
+    <Content Include="Content\logo-aftop.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
